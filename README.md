@@ -1,2 +1,3 @@
-# Remove-First-and-Last-Character
-To remove the first and last character from a string in Python
+the remove_chars function takes a string as input and uses slicing to create a new string that starts at the second character (index 1) and ends at the second-to-last character (index -1). This excludes the first and last characters of the original string, and returns the new string.
+
+You can also use this approach to remove the first or last character individually, by using a single colon in the slicing syntax. For example, to remove the first character only, you can use s[1:], and to remove the last character only, you can use s[:-1].
